@@ -28,7 +28,7 @@ LLH_values = []
 for i in range(len(eps_emu_edges) - 1):
     #value = Eps_emu_imaginary(eps_emu_edges[i], delta_emu_edges[i])
     #value = Eps_emu_imaginary(eps_emu_edges[i], 1.57)
-    #value = Eps_emu_imaginary(0.25, delta_emu_edges[i])
+    value = Eps_emu_imaginary(0.25, delta_emu_edges[i])
     real_part = value.real
     imag_part = value.imag
     real_parts.append(value.real)
@@ -60,7 +60,7 @@ plt.title('Eps_emu LLH Scatter Plot')
 
 plt.grid(True)
 plt.tight_layout()
-plt.savefig("Epsemu_2DLLHscans_allstartatzero.jpg", format="jpg", dpi=300)
+plt.savefig("Epsemu_2DLLHscans_allstartatzero_pi2deltaemu.jpg", format="jpg", dpi=300)
 plt.show()
 plt.close()
 
