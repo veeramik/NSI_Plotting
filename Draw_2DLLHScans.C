@@ -13,7 +13,7 @@ TH2D* mach3_hist_make(TDirectoryFile* NSIFile, TString NSIHistName){
 void Draw_2DLLHScans(){
   gStyle->SetOptStat(0);
 
-  TFile* File = new TFile("../LLHScans/test_t2k_NSI_LLHscans_allstartatzero.root");
+  TFile* File = new TFile("inputs/LLHScans/test_t2k_NSI_2DLLHscans_allstartatzero.root");
 
   //Just draw the NSI parameters
 
@@ -29,7 +29,7 @@ void Draw_2DLLHScans(){
   TDirectoryFile* MaCh3_Sample = (TDirectoryFile*)File->Get("Sample_2DLLH");
 
   //create outputfile and canvas
-  TString sample_llh = "NSIFitLLH_2D10points_SAMPLE.pdf";
+  TString sample_llh = "NSIFitLLH_2D20points_SAMPLE.pdf";
   TCanvas* sample_llh_canvas = new TCanvas("sample_llh_canvas", "sample_llh_canvas", 1200, 800);   
   sample_llh_canvas->Draw();
 

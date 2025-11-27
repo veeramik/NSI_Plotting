@@ -19,7 +19,13 @@ import os
 
 #custom_labels = {"inputs/NuFit2020_T2Kbaseline/oscillation_weights_PMNSonly_onlyecoupling_NuFit2020_T2Kbaseline.txt" : "PMNS Model", "inputs/NuFit2020_T2Kbaseline/oscillation_weights_epsemuonly_onlyecoupling_NuFit2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=0", "inputs/NuFit2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi2_onlyecoupling_NuFit2020_T2Kbaseline.txt" :"eps_emu = 0.25 delta_emu=pi/2", "inputs/NuFit2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi_onlyecoupling_NuFit2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=pi", "inputs/NuFit2020_T2Kbaseline/oscillation_weights_epsemudeltaemu3pi2_onlyecoupling_NuFit2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu = 3pi/2"}    
 
-custom_labels = {"inputs/T2K2020_T2Kbaseline/oscillation_weights_PMNSonly_onlyecoupling_T2K2020like.txt" : "PMNS Model", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemuonly_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=0", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi2_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=pi/2", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu3pi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=3pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=pi", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu5pi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu = 5pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu3pi2_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu = 3pi/2"} 
+#custom_labels = {"inputs/T2K2020_T2Kbaseline/oscillation_weights_PMNSonly_onlyecoupling_T2K2020like.txt" : "PMNS Model", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemuonly_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=0", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi2_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=pi/2", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu3pi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=3pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemupi_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu=pi", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu5pi4_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu = 5pi/4", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemudeltaemu3pi2_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_emu = 3pi/2"} 
+
+#custom_labels = {"inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemu0_deltaCP0_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0 delta_cp=0", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemu025_deltaCP0_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_cp=0", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemuonly_onlyecoupling_T2K2020like.txt" : "eps_emu = 0.25 delta_cp=-1.6", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemu025_deltaCPminuspi_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_cp=-3.14", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemu025_delztaCPpi2_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_cp=1.57", "inputs/T2K2020_T2Kbaseline/oscillation_weights_epsemu025_deltaCPpi_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_cp=3.14"}
+
+custom_labels = {"inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_PMNSonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "PMNS Model", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsemuonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=0", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsemudeltaemupi2_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=pi/2", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsemudeltaemupi_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu=pi", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsemudeltaemu3pi2_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25 delta_emu = 3pi/2"} 
+
+#custom_labels = {"inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_PMNSonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "PMNS Model", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epseeonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_ee = 0.25", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsemuonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_emu = 0.25", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsetauonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_etau = 0.25", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsmumuonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_mumu = 0.25", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epsmutauonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt":"eps_mutau = 0.25", "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_epstautauonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" : "eps_tautau = 0.25"} 
 
 
 text_files = list(custom_labels.keys())
@@ -41,7 +47,7 @@ for file_name in text_files:
                     detected_flavour = float(parts[3])  
                     energy_val = float(parts[4])
                     prob_val = float(parts[6])
-                    if generated_flavour == 2 and detected_flavour == 1 and NuType == 1 and energy_val < 4 and prob_val < 1.0:
+                    if generated_flavour == 2 and detected_flavour == 1 and NuType == 1 and energy_val < 4: #and prob_val < 1.0:
                         energy.append(energy_val)
                         probability.append(prob_val)
         data[file_name] = (energy, probability)
@@ -50,7 +56,7 @@ for file_name in text_files:
 #plt.figure(figsize=(10, 6))
 linestyles = ["-", "--"]
 for file_name, (energy, probability) in data.items():
-    style = linestyles[0] if file_name == "inputs/T2K2020_T2Kbaseline/oscillation_weights_PMNSonly_onlyecoupling_T2K2020like.txt" else linestyles[1]
+    style = linestyles[0] if file_name == "inputs/T2K2020_T2Kbaseline_IO/oscillation_weights_PMNSonly_IO_onlyecoupling_T2K2020_T2Kbaseline.txt" else linestyles[1]
     print(file_name)
     label = custom_labels.get(file_name, file_name)
     plt.plot(energy, probability,linestyle = style, markersize=1.5, label=label) #'o'  linemarker = style
@@ -61,8 +67,11 @@ for file_name, (energy, probability) in data.items():
 plt.xlabel("Energy (GeV)")
 plt.ylabel("Probability")
 plt.title("Energy vs. Probability")
+ax = plt.gca()
+ax.set_ylim([0, 0.1])
+ax.set_xlim([0, 2.0])
 plt.legend()
 plt.grid(True)
-plt.savefig("energy_vs_probability_nueapperance_deltaemuextended_onlyecouplings_T2Kplotlimits.jpg", format="jpg", dpi=300)
+plt.savefig("energy_vs_probability_nueapperance_epsilons_onlyecouplings_IO.jpg", format="jpg", dpi=300)
 plt.show()
 

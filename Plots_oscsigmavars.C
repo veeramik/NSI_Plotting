@@ -10,7 +10,6 @@
 
 void Plots_oscsigmavars(std::string filename, int sample_id) {
   //gStyle->SetOptStat(0);
-
   std::vector<std::string> samplenames = {"FHC1Rmu", "FHC1Re", "FHCnumuCC1pi", "RHC1Rmu", "RHC1Re"};
   std::vector<std::string> samplenames2 = {"FHC 1R#mu", "FHC 1Re", "FHC #nu_{#mu} CC1#pi^{+}", "RHC 1R#mu", "RHC 1Re"};
 
@@ -54,8 +53,7 @@ void Plots_oscsigmavars(std::string filename, int sample_id) {
     "sin2th_13",
     "sin2th_12",
     "delm2_23",
-    "delm2_12",
-    "baseline"
+    "delm2_12"
   };
 
   std::vector<std::string> variations = {"p3", "p1", "n1", "n3"};
@@ -68,7 +66,7 @@ void Plots_oscsigmavars(std::string filename, int sample_id) {
   canvas->SetMargin(_margin_l, _margin_r, _margin_t, _margin_b);
   canvas->SetGrid();
 
-  std::string pdfname = "../all_sigma_variation_plots"+samplenames[i_sample]+".pdf";
+  std::string pdfname = "all_sigma_variation_plots_fixlimits"+samplenames[i_sample]+".pdf";
   canvas->Print((pdfname + "[").c_str());  // Open the multipage PDF
     
   std::string plotname;

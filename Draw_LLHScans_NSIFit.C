@@ -13,7 +13,7 @@ void Draw_LLHscans_NSIFit(){
   gStyle->SetOptStat(0);
 
   //TFile* File = new TFile("../LLHScans/test_t2k_NSI_1DLLHscan_11limits.root");
-  TFile* File = new TFile("../LLHScans/test_t2k_NSI_LLHscans_allstartatzero.root");
+  TFile* File = new TFile("inputs/LLHScans/test_t2k_NSI_zeroto2pidelta_and1limits_1DLLHscan.root");
 
   if (!File->IsOpen()) {
     std::cerr << "Error: Unable to open file " <<  std::endl;
@@ -50,9 +50,9 @@ void Draw_LLHscans_NSIFit(){
   TDirectoryFile* MaCh3_Penalty = (TDirectoryFile*)File->Get("xsec_LLH");
 
   // okay we now want 3 output files
-  TString full_llh = "NSIFitLLH_1000points_OA24_FULL_newlimit_10limitsforeps_allstartatzero.pdf";
-  TString sample_llh = "NSIFitLLH_1000points_OA24_SAMPLE_newlimits_10limitsforeps_allstartatzero.pdf";
-  TString penalty_llh = "NSIFitLLH_1000points_OA24_PENALTY_newlimits_10limitsforeps_allstartatzero.pdf";
+  TString full_llh = "NSIFitLLH_1000points_OA24_FULL_newlimit_zeroto2pidelta_and1limits_allstartatzero.pdf";
+  TString sample_llh = "NSIFitLLH_1000points_OA24_SAMPLE_newlimits_zeroto2pidelta_and1limits_allstartatzero.pdf";
+  TString penalty_llh = "NSIFitLLH_1000points_OA24_PENALTY_newlimits_zeroto2pidelta_and1limits_allstartatzero.pdf";
 
   // Should make 3 TCanvases as well
   TCanvas* full_llh_canvas = new TCanvas("full_llh_canvas", "full_llh_canvas", 1000, 800);
